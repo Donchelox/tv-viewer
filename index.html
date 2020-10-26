@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Viewer</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>TV Viewer Chile</h1>
+        </div>
+        <div>
+            <div>
+                <strong>Noticias:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse atque qui, voluptates velit recusandae magni.
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <div class="grid" id="content">
+            <div id="video" class="video-container" style="--aspect-ratio: 3 / 4;">
+                <iframe width="100%" src="https://www.youtube.com/embed/BDr-rxo-Jio?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="channels">
+                <h3 class="title-channels">Canales Nacionales</h3>
+                <div class="channel-list">
+                    <div class="channel"><a href="#">
+                        <img id="mega" src="assets/img/mega.svg" alt="">
+                    </a></div>
+                    <div class="channel"><a href="#">UCV</a></div>
+                    <div class="channel"><a href="#">TVN</a></div>
+                    <div class="channel"><a href="#">Mega</a></div>
+                    <div class="channel"><a href="#">CHV</a></div>
+                    <div class="channel"><a href="#">Canal 13</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/app.js"></script>
+</body>
+</html>

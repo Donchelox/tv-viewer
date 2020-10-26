@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Viewer</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <main>
+       <div class="grid-4">
+           <div class="channel-4">
+               <div id="video">
+                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/nOIXwTLwrOc?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+           <div class="channel-4">
+               <div id="video">
+                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/b7OtKCsRQvI?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+           <div class="channel-4">
+               <div id="video">
+                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/63pLvsLrZrE?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autopla></iframe>
+            </div>
+           </div>
+           <div class="channel-4">
+               <div id="video">
+                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/jFb4iKd4iHI?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+           <div class="channel-4">
+                <div id="video">
+                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/zvmKxvVjYg0?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+             <div class="channel-4">
+                 <div id="video">
+                    <iframe src="https://player.vimeo.com/video/472007791" width="100%" height="270px" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                 </div>
+             </div>
+       </div>
+       <iframe id="Doyle" src="http://www.servelelecciones.cl" 
+width="100%" height="750">
+</iframe>
+<br>
+<button onclick="document.documentElement.webkitRequestFullScreen()">Full screen</button>
+
+
+<script>
+window.setInterval("reloadIFrame();", 5000);
+
+function reloadIFrame() {
+ var frameHolder=document.getElementById('Doyle');
+frameHolder.src="http://www.servelelecciones.cl"
+}
+</script>
+
+    </main>
+    <script src="assets/app.js"></script>
+</body>
+</html>
