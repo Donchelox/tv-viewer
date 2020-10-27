@@ -1,5 +1,12 @@
 let player = document.getElementById("player");
 
+
+function channelUCV(){
+    player.setAttribute('src','https://rudo.video/live/ucvtv2');
+}
+function channelTVMas(){
+    player.setAttribute('src','https://mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59?jsapi=true&loop=false&autoplay=true&controls=true&player=5c0e87c403a35601ebcffcf4&access_token=FLKY2GFWDawvuNPbOSp4AgTDVTN5bUhMhJbDNTySSNm6ElTQoAw8Jbiz8IhPqpxxvidUQFQCc1p');
+}
 function channelMega(){
     player.setAttribute('src','https://www.youtube.com/embed/BDr-rxo-Jio?autoplay=1&controls=0&rel=0');
 }
