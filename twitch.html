@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Viewer</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>TV Viewer Chile</h1>
+        </div>
+        <div>
+            <div>
+                <strong>Noticias:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="grid" id="content">
+            <div id="video" class="video-container" style="--aspect-ratio: 16 / 9;">
+
+            </div>
+        </div>
+    </main>
+    <script src="assets/app.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Embed("video", {
+          channel: "ibai",
+          muted: false,
+          layout: "video",
+        });
+      </script>
+</body>
+</html>

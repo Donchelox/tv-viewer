@@ -49,6 +49,9 @@ h3.title-channels{
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 100px;
     gap: 10px;
+    height: 50vh;
+    overflow-y: scroll;
+    border-radius: 6px;
 }
 a{
     text-decoration: none;
@@ -88,12 +91,13 @@ a{
     display: inline;
     z-index: 9999;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: -6px;
+    left: 10px;
     background-color: red;
-    color: @color-text;
+    color: white;
     padding: 3px 6px;
     border-radius: 3px;
+    font-size: 12px;
 }
 .icon-live{
     display: inline-block;
@@ -122,17 +126,35 @@ svg{
 #mega{
     background-color: #2d28b6;
 }
-#tvn{
+#meganoticias{
+    background-color: #24AF8E;
+}
+#tvn,#veintricuatro{
     background-color: #ff0000;
 }
-#Chilevision{
+#Chilevision,#ucvtv,#tveducachile{
     background-color: #fff;
 }
 #trece{
     background-color: #fa6428;
 }
+#ttrece{
+    background-color: #ff6c1c;
+}
 #trece>svg{
     height: 70px;
+}
+#nbcnews{
+    background-color: #102039;
+}
+#abcnews,#reuters,#usatoday{
+    background-color: white;
+}
+#cbsnews{
+    background-color: #000000;
+}
+#foxnews{
+    background-color: #053266;
 }
 
 @keyframes example {
