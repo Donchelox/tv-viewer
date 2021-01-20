@@ -7,7 +7,7 @@ let foxNewsChannel = document.getElementById("foxnews");
 
 
 function channelNBCNews(){
-    player.setAttribute('src','https://www.youtube.com/embed/FOoZ3FV9_fA?autoplay=1');
+    player.setAttribute('src','https://www.youtube.com/embed/umsaXWrpgR8?autoplay=1');
 }
 function channelABCNews(){
     player.setAttribute('src','https://www.youtube.com/embed/lIOizAIqZtc?autoplay=1');
