@@ -24,13 +24,16 @@ a{
 h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
+.d-none{
+    display: none !important;
+}
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    height: 10vh;
+    height: 6vh;
 }
 .grid{
     padding: 0px 20px;
@@ -185,7 +188,33 @@ svg{
     50%  {opacity: 0;}
     100%   {opacity: 1;}
   }
-
+.channel-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.channel-name>h4{
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+}
+.ocultar{
+    display: none !important;
+}
+#grid-channels{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 50px;
+}
+.channel-grid{
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 2px;
+}
+iframe > html{
+    overflow: hidden;
+}
 @media (max-width: 480px) {
     header{
         display: block;

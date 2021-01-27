@@ -47,3 +47,8 @@ function func1()
 {  
     live.setAttribute("style", "opacity:1;")
 }
+
+window.onload = () => {
+    const player9 = document.getElementById('player-9')
+    player9.setAttribute('src','https://www.youtube.com/embed/JYC0kvUlVXo?autoplay=1');
+}

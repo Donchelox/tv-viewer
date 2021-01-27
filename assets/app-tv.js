@@ -1,0 +1,145 @@
+const channelsData = [
+    { 
+        id: "tvn",
+        name: "TVN",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/57a498c4d7b86d600e5461cb?jsapi=true&autoplay=true&controls=true&volume=100&player=57f40bb4dc5b9f3075c49cfe&access_token=RUvGyCmJIxZnTCZLeL0KD50YWEPqdDhfb0h40CmWudVuC1k3phFTyOzqVcY4tHXe2z0246zrnGG&custom.preroll=&custom.overlay="
+    },
+    { 
+        id: "24horas",
+        name: "24 Horas",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/-dha9EjsMyI?autoplay=1"
+    },
+    { 
+        id: "tvchile",
+        name: "TV Chile",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/533adcc949386ce765657d7c?jsapi=true&autoplay=true"
+    },
+    { 
+        id: "13",
+        name: "13",
+        visibilidad: "ocultar",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/5f2d60b6e6e8357a6a4d8b4d?access_token=d8szeAOrFLsHNaymSrV3m7hIQl439ypqiZwlz1y4Q3YBqtAUy1RWKB661drnK2ZOlzoTjdcBmz0&autoplay=true"
+    },
+    { 
+        id: "t13",
+        name: "T13",
+        visibilidad: "",
+        source: "https://www.youtube.com/embed/aqPIiyPI10c?autoplay=1"
+    },
+    
+    { 
+        id: "meganoticias",
+        name: "MEGA Noticias",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/26zWPckHsuM?autoplay=1"
+    },
+    { 
+        id: "chv",
+        name: "Chilevisión",
+        visibilidad: "ocultar",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?jsapi=true&autoplay=true&access_token=ZzIaOnJDfSzmHe3KT6Rxyh2wiXlzP5EG8OStbtlz2o1HNNI3JhEJf34UmsoVjtfKLOqBtBlc8HB&custom.categoria_prontus=senal-online&custom.dfpLanguage=es&custom.dfpCountry=cl&custom.dfpShowName=senal-online&custom.dfpVidId=&custom.dfpURLEncoded=https%3A%2F%2Fwww.chilevision.cl%2Fsenal-online&custom.dfpRandomNumber=9186199867&custom.origen=chilevision&custom.iu=%2F99911224%2Fchilevision%2Flive%2Fsenal-online%2Flive&custom.app=false&custom.cust_params=sect%253Dlive%2526sub%253Dsenal-online%2526show%253Dsenal-online%2526videotype%253Dlive%2526cat%253Dlive%2526vidid%253D%2526site%253Dchilevision%2526app%253Dfalse%2526theme%253Dge&custom.amp=false&custom.appname="
+      },
+    { 
+        id: "cnnchile",
+        name: "CNN Chile",
+        visibilidad: "ocultar",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/OcIbP5L6yN8?autoplay=1"
+      },
+    { 
+        id: "tvmas",
+        name: "TV+",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59?jsapi=true&loop=false&autoplay=true&controls=true&player=5c0e87c403a35601ebcffcf4&access_token=FLKY2GFWDawvuNPbOSp4AgTDVTN5bUhMhJbDNTySSNm6ElTQoAw8Jbiz8IhPqpxxvidUQFQCc1p"
+      },
+      { 
+        id: "ucv",
+        name: "UCV",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/ucvtv2"
+      },
+      { 
+        id: "tveduca",
+        name: "TV Educa",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d?jsapi=true&autoplay=true&controls=true&volume=100&player=57f40bb4dc5b9f3075c49cfe&access_token=&mse=true&custom.preroll=&custom.overlay="
+      },
+      { 
+        id: "stgotv",
+        name: "STGO TV",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://stv.janus.cl/front/embed.html?autoplay=1"
+      },
+      { 
+        id: "biobio",
+        name: "Radio Bio bio",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/bbtv?volume=0&mute=1"
+      },
+      { 
+        id: "cooperativa",
+        name: "Radio Cooperativa",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/coopetv?volume=0&mute=1"
+      },
+      { 
+        id: "tvu",
+        name: "TVU",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/tvu?volume=0&mute=1"
+      },
+      { 
+        id: "c9",
+        name: "C9",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/c9?volume=0&mute=1"
+      },
+      { 
+        id: "uatv",
+        name: "UATV",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/uatv"
+      },
+      { 
+        id: "tvsenado",
+        name: "TV Senado",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://janus-tv.senado.cl/embed.php#1611498286"
+      },
+  ];
+
+  function channelTemplate(channel) {
+    return `
+  
+      <div class="channel-grid ${channel.id}-channel ${channel.visibilidad}">
+          <div id="video" class="video-container" style="--aspect-ratio: 16 / 9;">
+              <iframe id="player" width="100%" src="${channel.source}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="channel-name"><h4>${channel.name}</h4><a target="_BLANK" href="${channel.source}"><span>Ver en otra ventana</span></a></div>
+      </div>
+    `;
+  }
+  
+  document.getElementById("grid-channels").innerHTML = `
+    ${channelsData.map(channelTemplate).join("")}
+  `;
+  
