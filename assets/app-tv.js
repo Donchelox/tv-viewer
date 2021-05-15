@@ -2,21 +2,21 @@ const channelsData = [
     { 
         id: "tvn",
         name: "TVN",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
-        source: "https://mdstrm.com/live-stream/57a498c4d7b86d600e5461cb?jsapi=true&autoplay=true&controls=true&volume=100&player=57f40bb4dc5b9f3075c49cfe&access_token=RUvGyCmJIxZnTCZLeL0KD50YWEPqdDhfb0h40CmWudVuC1k3phFTyOzqVcY4tHXe2z0246zrnGG&custom.preroll=&custom.overlay="
+        source: "https://janus-tv.senado.cl/embed.php#1611498286"
     },
     { 
         id: "24horas",
         name: "24 Horas",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/-dha9EjsMyI?autoplay=1"
+        source: "https://www.youtube.com/embed/5bFPd0wR8C8?autoplay=1&mute=1"
     },
     { 
         id: "tvchile",
         name: "TV Chile",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
         source: "https://mdstrm.com/live-stream/533adcc949386ce765657d7c?jsapi=true&autoplay=true"
     },
@@ -31,7 +31,7 @@ const channelsData = [
         id: "t13",
         name: "T13",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/aqPIiyPI10c?autoplay=1"
+        source: "https://www.youtube.com/embed/f2t3330_mBk?autoplay=1&mute=1"
     },
     
     { 
@@ -39,7 +39,7 @@ const channelsData = [
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/26zWPckHsuM?autoplay=1"
+        source: "https://www.youtube.com/embed/Q-SA9a3MAmo?autoplay=1&mute=1"
     },
     { 
         id: "chv",
@@ -51,37 +51,44 @@ const channelsData = [
     { 
         id: "cnnchile",
         name: "CNN Chile",
-        visibilidad: "ocultar",
+        visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/OcIbP5L6yN8?autoplay=1"
+        source: "https://www.youtube.com/embed/d-USMe-Rnsw?autoplay=1&mute=1"
       },
     { 
         id: "tvmas",
         name: "TV+",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
         source: "https://mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59?jsapi=true&loop=false&autoplay=true&controls=true&player=5c0e87c403a35601ebcffcf4&access_token=FLKY2GFWDawvuNPbOSp4AgTDVTN5bUhMhJbDNTySSNm6ElTQoAw8Jbiz8IhPqpxxvidUQFQCc1p"
       },
       { 
+        id: "mediabanco",
+        name: "Media Banco",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/lHarJeh2yNY?autoplay=1&mute=1"
+      },
+      { 
         id: "ucv",
         name: "UCV",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
         source: "https://rudo.video/live/ucvtv2"
       },
       { 
         id: "tveduca",
         name: "TV Educa",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
         source: "https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d?jsapi=true&autoplay=true&controls=true&volume=100&player=57f40bb4dc5b9f3075c49cfe&access_token=&mse=true&custom.preroll=&custom.overlay="
       },
       { 
         id: "stgotv",
         name: "STGO TV",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
-        source: "https://stv.janus.cl/front/embed.html?autoplay=1"
+        source: "https://stv.janus.cl/front/embed.html?autoplay=1&mute=1"
       },
       { 
         id: "biobio",
@@ -121,7 +128,7 @@ const channelsData = [
       { 
         id: "tvsenado",
         name: "TV Senado",
-        visibilidad: "",
+        visibilidad: "ocultar",
         tipo: "video",
         source: "https://janus-tv.senado.cl/embed.php#1611498286"
       },
