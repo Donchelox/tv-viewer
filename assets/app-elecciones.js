@@ -14,7 +14,7 @@ const channelsData = [
       visibilidad: "",
       tipo: "video",
       source: "https://www.youtube.com/embed/5bFPd0wR8C8?autoplay=1&mute=1&hd=1"
-  },
+    },
     { 
         id: "t13",
         name: "T13",
@@ -28,13 +28,6 @@ const channelsData = [
         tipo: "video",
         source: "https://www.youtube.com/embed/Q-SA9a3MAmo?autoplay=1&mute=1"
     },
-    { 
-        id: "adnradio",
-        name: "ADN Radio",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/TyQUOgOinNM?autoplay=1&mute=1"
-      },
     { 
         id: "cnnchile",
         name: "CNN Chile",
@@ -57,6 +50,13 @@ const channelsData = [
         source: "https://rudo.video/live/bbtv?volume=0&mute=1"
       },
       { 
+          id: "adnradio",
+          name: "ADN Radio",
+          visibilidad: "",
+          tipo: "video",
+          source: "https://www.youtube.com/embed/TyQUOgOinNM?autoplay=1&mute=1"
+        },
+      { 
         id: "tvu",
         name: "TVU",
         visibilidad: "",
@@ -70,14 +70,14 @@ const channelsData = [
         tipo: "video",
         source: "https://rudo.video/live/c9?volume=0&mute=1"
       },
-      { 
+     /* { 
         id: "uatv",
         name: "UATV",
         visibilidad: "",
         tipo: "video",
         source: "https://rudo.video/live/uatv"
       },
-      
+      */
       { 
         id: "itvpatagonia",
         name: "ITV Patagonia",
