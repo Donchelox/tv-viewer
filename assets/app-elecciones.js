@@ -42,14 +42,14 @@ const channelsData = [
       },
       { 
         id: "biobio",
-        name: "Radio Bio bio",
+        name: "Bio bio",
         visibilidad: "",
         tipo: "video",
         source: "https://rudo.video/live/bbtv?volume=0&mute=1"
       },
       { 
         id: "cooperativa",
-        name: "Radio Cooperativa",
+        name: "Cooperativa",
         visibilidad: "",
         tipo: "video",
         source: "https://rudo.video/live/coopetv?volume=0&mute=1"
@@ -91,7 +91,7 @@ const channelsData = [
           <div id="video" class="video-container" style="--aspect-ratio: 16 / 9;">
               <iframe id="player" width="100%" src="${channel.source}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="channel-name"><h4>${channel.name}</h4><a target="_BLANK" href="${channel.source}"><span>Ver en otra ventana</span></a></div>
+          <div class="channel-name"><h4>${channel.name}</h4><a target="_BLANK" href="${channel.source}"><span class="new-window">Ver en otra ventana</span><img width="16px" src="assets/img/Icon material-open-in-new.svg"></a></div>
       </div>
     `;
   }
