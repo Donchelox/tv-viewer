@@ -215,7 +215,7 @@ svg{
 iframe > html{
     overflow: hidden;
 }
-.links>a{
+.link>a{
     border: 1px solid white;
     padding: 4px 10px;
     border-radius: 20px;
@@ -223,7 +223,8 @@ iframe > html{
 @media (max-width: 480px) {
     header{
         display: block;
-        height: 15vh;
+        height: auto;
+        padding: 1vh;
     }
     .grid{
         grid-template-columns: 1fr;
@@ -235,6 +236,25 @@ iframe > html{
     }
     .channel>a>svg{
         height: 35px;
+    }
+    #grid-channels{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 10px 20px;
+    }
+    .link{
+        overflow: auto;
+        white-space: nowrap;
+        height: 15px;
+        padding: 10px;
+    }
+    h1, strong{
+        text-align: center;
+        padding: 6px 0px;
+    }
+    .interes{
+        display: none;
     }
 }
 

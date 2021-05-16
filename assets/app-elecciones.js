@@ -20,6 +20,13 @@ const channelsData = [
         source: "https://www.youtube.com/embed/Q-SA9a3MAmo?autoplay=1&mute=1"
     },
     { 
+        id: "adnradio",
+        name: "ADN Radio",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/TyQUOgOinNM?autoplay=1&mute=1"
+      },
+    { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
