@@ -1,11 +1,20 @@
 const channelsData = [
+    
+    
     { 
-        id: "24horas",
-        name: "24 Horas",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/5bFPd0wR8C8?autoplay=1&mute=1&hd=1"
+      id: "servel",
+      name: "SERVEL",
+      visibilidad: "",
+      tipo: "video",
+      source: "https://www.youtube.com/embed/k7p6bDhJGlo?autoplay=1&mute=1"
     },
+    { 
+      id: "24horas",
+      name: "24 Horas",
+      visibilidad: "",
+      tipo: "video",
+      source: "https://www.youtube.com/embed/5bFPd0wR8C8?autoplay=1&mute=1&hd=1"
+  },
     { 
         id: "t13",
         name: "T13",
@@ -48,13 +57,6 @@ const channelsData = [
         source: "https://rudo.video/live/bbtv?volume=0&mute=1"
       },
       { 
-        id: "cooperativa",
-        name: "Cooperativa",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://rudo.video/live/coopetv?volume=0&mute=1"
-      },
-      { 
         id: "tvu",
         name: "TVU",
         visibilidad: "",
@@ -75,12 +77,13 @@ const channelsData = [
         tipo: "video",
         source: "https://rudo.video/live/uatv"
       },
+      
       { 
-        id: "servel",
-        name: "SERVEL",
+        id: "itvpatagonia",
+        name: "ITV Patagonia",
         visibilidad: "",
         tipo: "video",
-        source: "https://vimeo.com/event/982047/embed?muted=1"
+        source: "https://www.youtube.com/embed/k_O0QiiyIKU?autoplay=1&mute=1"
       },
   ];
 
