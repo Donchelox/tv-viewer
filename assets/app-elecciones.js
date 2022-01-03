@@ -1,19 +1,19 @@
 const channelsData = [
     
     
-    { 
+    /*{ 
       id: "servel",
       name: "SERVEL",
       visibilidad: "",
       tipo: "video",
       source: "https://www.youtube.com/embed/k7p6bDhJGlo?autoplay=1&mute=1"
-    },
+    },*/
     { 
       id: "24horas",
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/5bFPd0wR8C8?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/r4Sc08YtylU?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "t13",
