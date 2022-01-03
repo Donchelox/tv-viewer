@@ -54,7 +54,7 @@ const channelsData = [
           name: "ADN Radio",
           visibilidad: "",
           tipo: "video",
-          source: "https://www.youtube.com/embed/TyQUOgOinNM?autoplay=1&mute=1"
+          source: "https://www.youtube.com/embed/DwiPDjo2Bo8?autoplay=1&mute=1"
         },
       { 
         id: "tvu",
