@@ -19,15 +19,15 @@ const channelsData = [
         id: "t13",
         name: "T13",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/f2t3330_mBk?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/Ove87nZ_1D4?autoplay=1&mute=1"
     },
     { 
         id: "meganoticias",
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/Q-SA9a3MAmo?autoplay=1&mute=1"
-    },
+        source: "https://www.youtube.com/embed/8SOZCjrnVxQ?autoplay=1&mute=1"
+    },/*
     { 
         id: "cnnchile",
         name: "CNN Chile",
@@ -41,7 +41,7 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
-      },
+      },*/
       { 
         id: "biobio",
         name: "Bio bio",
