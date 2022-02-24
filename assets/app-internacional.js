@@ -69,6 +69,27 @@ const channelsData = [
                       tipo: "video",
                       source: "https://www.youtube.com/embed/o3TVbNgdHx4?autoplay=1&mute=1"
                     },
+                    { 
+                        id: "cbsnews",
+                        name: "CBS News",
+                        visibilidad: "",
+                        tipo: "video",
+                        source: "https://www.youtube.com/embed/GGK-wOprSu0?autoplay=1&mute=1"
+                      },
+                      { 
+                          id: "cbsnews",
+                          name: "CBS News",
+                          visibilidad: "",
+                          tipo: "video",
+                          source: "https://www.youtube.com/embed/GGK-wOprSu0?autoplay=1&mute=1"
+                        },
+                        { 
+                            id: "reuters",
+                            name: "Reuters",
+                            visibilidad: "",
+                            tipo: "video",
+                            source: "https://www.youtube.com/embed/jgL0mA2SeGs?autoplay=1&mute=1"
+                          },
   ];
 
   function channelTemplate(channel) {
