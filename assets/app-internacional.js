@@ -35,19 +35,12 @@ const channelsData = [
           source: "https://www.youtube.com/embed/I96mp4LN1Kk?autoplay=1&mute=1"
         },
         { 
-            id: "abcnews",
-            name: "ABC News",
+            id: "dwnews",
+            name: "DW News",
             visibilidad: "",
             tipo: "video",
-            source: "https://www.youtube.com/embed/w_Ma8oQLmSM?autoplay=1&mute=1"
+            source: "https://www.youtube.com/embed/V9KZGs1MtP4?autoplay=1&mute=1"
           },
-          { 
-              id: "abcnews",
-              name: "ABC News",
-              visibilidad: "",
-              tipo: "video",
-              source: "https://www.youtube.com/embed/w_Ma8oQLmSM?autoplay=1&mute=1"
-            },
             { 
                 id: "skynews",
                 name: "Sky News",
