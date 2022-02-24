@@ -1,11 +1,19 @@
 const channelsData = [
     
+    
+    /*{ 
+      id: "servel",
+      name: "SERVEL",
+      visibilidad: "",
+      tipo: "video",
+      source: "https://www.youtube.com/embed/k7p6bDhJGlo?autoplay=1&mute=1"
+    },*/
     { 
       id: "24horas",
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/8YzOWIi3R2I?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/r4Sc08YtylU?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "t13",
@@ -18,64 +26,65 @@ const channelsData = [
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/uYsSpdSkdFc?autoplay=1&mute=1"
-    },
+        source: "https://www.youtube.com/embed/8SOZCjrnVxQ?autoplay=1&mute=1"
+    },/*
     { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/7KOu4EGaM88?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/zD5Of2I8JXk?autoplay=1&mute=1"
       },
       { 
-          id: "nbcnews",
-          name: "NBC News",
+        id: "mediabanco",
+        name: "Media Banco",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
+      },*/
+      { 
+        id: "biobio",
+        name: "Bio bio",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/bbtv?volume=0&mute=1"
+      },
+      { 
+          id: "adnradio",
+          name: "ADN Radio",
           visibilidad: "",
           tipo: "video",
-          source: "https://www.youtube.com/embed/I96mp4LN1Kk?autoplay=1&mute=1"
+          source: "https://www.youtube.com/embed/DwiPDjo2Bo8?autoplay=1&mute=1"
         },
-        { 
-            id: "abcnews",
-            name: "ABC News",
-            visibilidad: "",
-            tipo: "video",
-            source: "https://www.youtube.com/embed/w_Ma8oQLmSM?autoplay=1&mute=1"
-          },
-          { 
-              id: "abcnews",
-              name: "ABC News",
-              visibilidad: "",
-              tipo: "video",
-              source: "https://www.youtube.com/embed/w_Ma8oQLmSM?autoplay=1&mute=1"
-            },
-            { 
-                id: "skynews",
-                name: "Sky News",
-                visibilidad: "",
-                tipo: "video",
-                source: "https://www.youtube.com/embed/9Auq9mYxFEE?autoplay=1&mute=1"
-              },
-              { 
-                  id: "france24",
-                  name: "France 24",
-                  visibilidad: "",
-                  tipo: "video",
-                  source: "https://www.youtube.com/embed/jNhh-OLzWlE?autoplay=1&mute=1"
-                },
-                { 
-                    id: "aljazeera",
-                    name: "Al Jazeera",
-                    visibilidad: "",
-                    tipo: "video",
-                    source: "https://www.youtube.com/embed/-upyPouRrB8?autoplay=1&mute=1"
-                  },
-                  { 
-                      id: "rt",
-                      name: "RT",
-                      visibilidad: "",
-                      tipo: "video",
-                      source: "https://www.youtube.com/embed/o3TVbNgdHx4?autoplay=1&mute=1"
-                    },
+      { 
+        id: "tvu",
+        name: "TVU",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/tvu?volume=0&mute=1"
+      },
+      { 
+        id: "c9",
+        name: "C9",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/c9?volume=0&mute=1"
+      },
+     /* { 
+        id: "uatv",
+        name: "UATV",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://rudo.video/live/uatv"
+      },
+      */
+      { 
+        id: "itvpatagonia",
+        name: "ITV Patagonia",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/k_O0QiiyIKU?autoplay=1&mute=1"
+      },
   ];
 
   function channelTemplate(channel) {
