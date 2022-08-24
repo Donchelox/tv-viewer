@@ -1,12 +1,12 @@
 const channelsData = [
     
-    { 
+    /*{ 
       id: "24horas",
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
       source: "https://www.youtube.com/embed/8YzOWIi3R2I?autoplay=1&mute=1&hd=1"
-    },
+    },*/
     { 
         id: "t13",
         name: "T13",
@@ -18,7 +18,7 @@ const channelsData = [
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/uYsSpdSkdFc?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/nVMhebdoMd4?autoplay=1&mute=1"
     },
     { 
         id: "cnnchile",
