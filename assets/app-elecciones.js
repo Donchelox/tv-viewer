@@ -41,14 +41,14 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/oIbybVITZEQ?autoplay=1&mute=1"
-    },/*
+    },
     { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/zD5Of2I8JXk?autoplay=1&mute=1"
-      },
+        source: "https://www.youtube.com/embed/ObDobg5su_8?autoplay=1&mute=1"
+      },/*
       { 
         id: "mediabanco",
         name: "Media Banco",
