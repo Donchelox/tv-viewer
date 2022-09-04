@@ -13,7 +13,7 @@ const channelsData = [
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/r4Sc08YtylU?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/rxqXAM_V-to?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "t13",
@@ -26,7 +26,21 @@ const channelsData = [
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/8SOZCjrnVxQ?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/7nu_btnb2j4?autoplay=1&mute=1"
+    },
+    { 
+        id: "chv",
+        name: "Chilevisión",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/w7hz_CPRqcM?autoplay=1&mute=1"
+    },
+    { 
+        id: "latercera",
+        name: "La Tercera",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/oIbybVITZEQ?autoplay=1&mute=1"
     },/*
     { 
         id: "cnnchile",
