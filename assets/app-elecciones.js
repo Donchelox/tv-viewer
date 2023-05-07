@@ -13,41 +13,41 @@ const channelsData = [
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/rxqXAM_V-to?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/pcdsoJVV0VI?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "t13",
         name: "T13",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/Ove87nZ_1D4?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/heVtqQtKAE8?autoplay=1&mute=1"
     },
     { 
         id: "meganoticias",
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/7nu_btnb2j4?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/b990HaRuSsc?autoplay=1&mute=1"
     },
     { 
         id: "chv",
         name: "Chilevisión",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/w7hz_CPRqcM?autoplay=1&mute=1"
-    },
+        source: "https://www.youtube.com/embed/2koKKi69ByY?autoplay=1&mute=1"
+    },/*
     { 
         id: "latercera",
         name: "La Tercera",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/oIbybVITZEQ?autoplay=1&mute=1"
-    },
+    },*/
     { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/ObDobg5su_8?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/mOLh8sT5CcM?autoplay=1&mute=1"
       },/*
       { 
         id: "mediabanco",
@@ -55,7 +55,7 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
-      },*/
+      },
       { 
         id: "biobio",
         name: "Bio bio",
@@ -91,14 +91,14 @@ const channelsData = [
         tipo: "video",
         source: "https://rudo.video/live/uatv"
       },
-      */
+      
       { 
         id: "itvpatagonia",
         name: "ITV Patagonia",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/k_O0QiiyIKU?autoplay=1&mute=1"
-      },
+      },*/
   ];
 
   function channelTemplate(channel) {
