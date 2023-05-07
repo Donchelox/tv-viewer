@@ -55,14 +55,20 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
-      },
+      },*/
       { 
         id: "biobio",
         name: "Bio bio",
         visibilidad: "",
         tipo: "video",
-        source: "https://rudo.video/live/bbtv?volume=0&mute=1"
-      },
+        source: "https://www.youtube.com/embed/xO3R6vhjxac?autoplay=1&mute=1"
+      },{ 
+        id: "copano",
+        name: "Copano",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/M10BmZ__V7Q?autoplay=1&mute=1"
+      },/*
       { 
           id: "adnradio",
           name: "ADN Radio",
