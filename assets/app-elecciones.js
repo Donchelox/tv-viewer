@@ -26,7 +26,7 @@ const channelsData = [
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/b990HaRuSsc?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/6Ux-ZAqcddQ?autoplay=1&mute=1"
     },
     { 
         id: "chv",
@@ -47,7 +47,7 @@ const channelsData = [
         name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/mOLh8sT5CcM?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/VsnlQdMBYU4?autoplay=1&mute=1"
       },/*
       { 
         id: "mediabanco",
@@ -61,7 +61,7 @@ const channelsData = [
         name: "Bio bio",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/xO3R6vhjxac?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/kwVRXc6AG3M?autoplay=1&mute=1"
       },{ 
         id: "copano",
         name: "Copano",
