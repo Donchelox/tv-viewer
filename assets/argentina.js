@@ -33,7 +33,7 @@ const channelsData = [
         name: "INFOBAE",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/ksvaPBRjp6s?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/ZyYemoQJBZo?autoplay=1&mute=1"
     },
     { 
         id: "cronica",
