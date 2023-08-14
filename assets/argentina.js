@@ -29,11 +29,11 @@ const channelsData = [
         source: "https://www.youtube.com/embed/4e8Iw3Frf1A?autoplay=1&mute=1"
     },
     { 
-        id: "infobae",
-        name: "INFOBAE",
+        id: "tvpublica",
+        name: "TV Pública",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/ZyYemoQJBZo?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/3IXFmkYF0J8?autoplay=1&mute=1"
     },
     { 
         id: "cronica",
