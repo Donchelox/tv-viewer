@@ -4,7 +4,7 @@
     "start_url": "./?utm_source=pwa",
     "theme_color": "#15202b",
     "background_color": "#15202b",
-    "orientation": "portrait",
+    "orientation": "lanscape",
     "display": "standalone",
     "icons": [{
       "src": "assets/img/icon/homescreen48.png",
