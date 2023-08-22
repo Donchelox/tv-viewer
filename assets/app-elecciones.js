@@ -13,49 +13,49 @@ const channelsData = [
       name: "24 Horas",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/pcdsoJVV0VI?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/g7tLv4SOXbc?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "t13",
         name: "T13",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/heVtqQtKAE8?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/Q0RZDLCR5oU?autoplay=1&mute=1"
     },
     { 
         id: "meganoticias",
         name: "MEGA Noticias",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/6Ux-ZAqcddQ?autoplay=1&mute=1"
-    },
+        source: "https://www.youtube.com/embed/c3RaV1CZddM?autoplay=1&mute=1"
+    },/*
     { 
         id: "chv",
         name: "Chilevisión",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/2koKKi69ByY?autoplay=1&mute=1"
-    },/*
+    },
     { 
         id: "latercera",
         name: "La Tercera",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/oIbybVITZEQ?autoplay=1&mute=1"
-    },*/
+    },
     { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/VsnlQdMBYU4?autoplay=1&mute=1"
-      },/*
+      },
       { 
         id: "mediabanco",
         name: "Media Banco",
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
-      },*/
+      },
       { 
         id: "biobio",
         name: "Bio bio",
