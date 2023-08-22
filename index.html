@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elecciones 2021</title>
+    <title>TV Viewer</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="shortcut icon" href="https://abs.twimg.com/hashflags/ChileElections_2021/ChileElections_2021.png" type="image/x-icon">
-    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
         <div>
-            <h1>Elecciones Chile<div id="live"><i class="icon-live"></i><span>En vivo</span></div></h1>
+            <h1>TV Viewer Chile</h1>
         </div>
         <div>
-            <div class="links">
-                <strong class="interes">Te puede interesar: </strong>
-                <div class="link">
-                <a href="https://www.servelelecciones.cl" target="_blank">Resultados Servel</a> 
-                <!--<a href="https://elecciones.visorterritorial.cl" target="_blank">Visor Territorial</a> -->
-                <a href="https://twitter.com/search?q=%23EleccionConsejoConstitucional&src=trend_click&vertical=trends" target="_blank">#EleccionConsejoConstitucional <img src="https://abs.twimg.com/hashflags/ChileElections_2021/ChileElections_2021.png" width="15px" alt=""></a>
-                </div> 
+            <div>
+                <strong><a href="/Chile.html">Ver Chile</a>
             </div>
         </div>
     </header>
-
     <main>
-        <div id="grid-channels">
+        
+        <div class="grid" id="content">
+            <div id="video" class="video-container" style="--aspect-ratio: 16 / 9;">
+                
+                <iframe id="player" width="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="live"><i class="icon-live"></i><span>En vivo</span></div>
+            </div>
+            <div id="channels">
+                <h3 class="title-channels">Canales Nacionales</h3>
+                <div class="channel-list">
+                        <div class="channel" id="tveducachile" onclick="channelTvEducaChile()">
+                            
+                            
+                        </div>
+                        <div class="channel" id="tvmas" onclick="channelTVMas()">
+                    
+                            
+                        </div>
+                        <div class="channel" id="ucvtv" onclick="channelUCV()">
+                            <img src="assets/img/ucvtv.png" alt="" height="70px">
+                        </div>
+                        <div class="channel" id="tvn" onclick="channelTVN()">
+                            
+                        </div>
+                        <div class="channel" id="meganoticias" onclick="channelMeganoticias()">
+                                
+                        </div>
+                        <div class="channel" id="Chilevision" onclick="channelCHV()">                        
+                        </div>
+                        <div class="channel" id="trece" onclick="channelTrece()">
+                        </div>
+                        <div class="channel" id="veintricuatro" onclick="channel24h()">
+                            
+                        </div>
+                        <div class="channel" id="ttrece" onclick="channelTtrece()">
+                            
+
+                        </div>
+                </div>
+            </div>
         </div>
     </main>
-
-    </main>
-    <script src="assets/app-elecciones.js"></script>
+    <script src="assets/app.js"></script>
 </body>
 </html>
