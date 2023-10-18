@@ -6,20 +6,20 @@ const channelsData = [
       name: "TN",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/HPiv1pzIPRc?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/cb12KmMMDJA?autoplay=1&mute=1&hd=1"
     },
     { 
         id: "a24",
         name: "A24",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/dxBBtqDEUQI?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/QGpHLgRnrx4?autoplay=1&mute=1"
     },
     { 
         id: "c5n",
         name: "C5N",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/ekid6Im1dOc?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/xwupNXFI7-4?autoplay=1&mute=1"
     },
     { 
         id: "lanacion",
@@ -33,7 +33,7 @@ const channelsData = [
         name: "TV Pública",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/3IXFmkYF0J8?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/2Y1NHmFbTsQ?autoplay=1&mute=1"
     },
     { 
         id: "cronica",
