@@ -19,7 +19,7 @@ const channelsData = [
         name: "C5N",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/xwupNXFI7-4?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/p4gK-_2ZpxQ?autoplay=1&mute=1"
     },
     { 
         id: "lanacion",
@@ -33,7 +33,7 @@ const channelsData = [
         name: "TV Pública",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/2Y1NHmFbTsQ?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/vyICPqyyULU?autoplay=1&mute=1"
     },
     { 
         id: "cronica",
