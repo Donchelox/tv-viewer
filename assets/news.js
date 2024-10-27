@@ -2,72 +2,66 @@ const channelsData = [
     
     
     { 
-      id: "tn",
-      name: "TN",
+      id: "tvn",
+      name: "TVN",
       visibilidad: "",
       tipo: "video",
-      source: "https://www.youtube.com/embed/cb12KmMMDJA?autoplay=1&mute=1&hd=1"
+      source: "https://www.youtube.com/embed/tPTqMs_81aw?autoplay=1&mute=1&hd=1"
     },
     { 
-        id: "abcnews",
-        name: "ABC News",
+        id: "meganoticias",
+        name: "MEGA Noticias",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/-mvUkiILTqI?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/1lDzTRc77w8?autoplay=1&mute=1"
     },
     { 
-        id: "nbc",
-        name: "NBC News",
+        id: "t13",
+        name: "T13",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/NoQLU2uJij0?autoplay=1&mute=1"
-    },
-    /*{ 
-        id: "univision",
-        name: "Univisión",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/HQrPda3Xb-c?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/hYcZG6H_gpE?autoplay=1&mute=1"
     },
     { 
-        id: "foxnews",
-        name: "FOX News",
+        id: "chv",
+        name: "Chilevision",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/-C2RyORyX0U?autoplay=1&mute=1"
-    },*/
+        source: "https://www.youtube.com/embed/l5RgXj27LMI?autoplay=1&mute=1"
+    },
     { 
-        id: "cronica",
-        name: "Crónica TV",
+        id: "cnnchile",
+        name: "CNN Chile",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&mute=1"
-      },/*
-      { 
-        id: "mediabanco",
-        name: "Media Banco",
+        source: "https://www.youtube.com/embed/gmAED3m-86s?autoplay=1&mute=1"
+    },
+    { 
+        id: "biobio",
+        name: "Bio bio TV",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/9LN56F4K_gY?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/36VTNEAUmOo?autoplay=1&mute=1"
       },
       { 
-        id: "biobio",
-        name: "Bio bio",
+        id: "latercera",
+        name: "La Tercera",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/kwVRXc6AG3M?autoplay=1&mute=1"
-      },{ 
-        id: "copano",
-        name: "Copano",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/M10BmZ__V7Q?autoplay=1&mute=1"
-      },/*
+        source: "https://www.youtube.com/embed/prXvtJxDrUI?autoplay=1&mute=1"
+      },
       { 
-          id: "adnradio",
-          name: "ADN Radio",
+        id: "adn Chile",
+        name: "ADN Chile",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/Z0n1zA_myNQ?autoplay=1&mute=1"
+      },
+      { 
+          id: "cooperativa",
+          name: "Cooperativa",
           visibilidad: "",
           tipo: "video",
-          source: "https://www.youtube.com/embed/DwiPDjo2Bo8?autoplay=1&mute=1"
+          source: "https://www.youtube.com/embed/P7IwrQaFb8E?autoplay=1&mute=1"
         },
       { 
         id: "tvu",
@@ -77,26 +71,18 @@ const channelsData = [
         source: "https://rudo.video/live/tvu?volume=0&mute=1"
       },
       { 
-        id: "c9",
-        name: "C9",
+        id: "canal9",
+        name: "Canal 9 Bio bio",
         visibilidad: "",
         tipo: "video",
-        source: "https://rudo.video/live/c9?volume=0&mute=1"
+        source: "https://www.youtube.com/embed/UiA8XVCd6tA?autoplay=1&mute=1"
       },
-     /* { 
-        id: "uatv",
-        name: "UATV",
+      /*{ 
+        id: "antofagastatv",
+        name: "Antofagasta TV",
         visibilidad: "",
         tipo: "video",
-        source: "https://rudo.video/live/uatv"
-      },
-      
-      { 
-        id: "itvpatagonia",
-        name: "ITV Patagonia",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/k_O0QiiyIKU?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/_6GCd-VE5aM?autoplay=1&mute=1"
       },*/
   ];
 
