@@ -12,16 +12,16 @@ const channelsData = [
         id: "abcnews",
         name: "ABC News",
         visibilidad: "",
-        source: "https://www.youtube.com/embed/szm4fJLaQUU?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/-mvUkiILTqI?autoplay=1&mute=1"
     },
     { 
         id: "nbc",
         name: "NBC News",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/MZyUCxr046Q?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/NoQLU2uJij0?autoplay=1&mute=1"
     },
-    { 
+    /*{ 
         id: "univision",
         name: "Univisión",
         visibilidad: "",
@@ -34,7 +34,7 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/-C2RyORyX0U?autoplay=1&mute=1"
-    },
+    },*/
     { 
         id: "cronica",
         name: "Crónica TV",
