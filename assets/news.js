@@ -34,21 +34,21 @@ const channelsData = [
         visibilidad: "",
         tipo: "video",
         source: "https://www.youtube.com/embed/xrKBpHpyc7g?autoplay=1&mute=1"
+      },
+      { 
+        id: "tn",
+        name: "TN",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/cb12KmMMDJA?autoplay=1&mute=1"
+      },
+      { 
+        id: "Vaticannews",
+        name: "VATICAN News",
+        visibilidad: "",
+        tipo: "video",
+        source: "https://www.youtube.com/embed/EjnEBKK4LHA?autoplay=1&mute=1"
       },/*
-      { 
-        id: "latercera",
-        name: "La Tercera",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/prXvtJxDrUI?autoplay=1&mute=1"
-      },
-      { 
-        id: "adn Chile",
-        name: "ADN Chile",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/Z0n1zA_myNQ?autoplay=1&mute=1"
-      },
       { 
           id: "cooperativa",
           name: "Cooperativa",
