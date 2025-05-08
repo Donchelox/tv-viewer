@@ -22,13 +22,6 @@ const channelsData = [
         source: "https://www.youtube.com/embed/R_V7FhsCPwM?autoplay=1&mute=1"
     },
     { 
-        id: "chv",
-        name: "Chilevision",
-        visibilidad: "",
-        tipo: "video",
-        source: "https://www.youtube.com/embed/MS8TiWUpCrM?autoplay=1&mute=1"
-    },
-    { 
         id: "cnnchile",
         name: "CNN Chile",
         visibilidad: "",
