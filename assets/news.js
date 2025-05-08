@@ -26,7 +26,7 @@ const channelsData = [
         name: "Chilevision",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/l5RgXj27LMI?autoplay=1&mute=1"
+        source: "https://www.youtube.com/embed/MS8TiWUpCrM?autoplay=1&mute=1"
     },
     { 
         id: "cnnchile",
@@ -40,8 +40,8 @@ const channelsData = [
         name: "Bio bio TV",
         visibilidad: "",
         tipo: "video",
-        source: "https://www.youtube.com/embed/36VTNEAUmOo?autoplay=1&mute=1"
-      },
+        source: "https://www.youtube.com/embed/xrKBpHpyc7g?autoplay=1&mute=1"
+      },/*
       { 
         id: "latercera",
         name: "La Tercera",
@@ -77,7 +77,7 @@ const channelsData = [
         tipo: "video",
         source: "https://www.youtube.com/embed/UiA8XVCd6tA?autoplay=1&mute=1"
       },
-      /*{ 
+      { 
         id: "antofagastatv",
         name: "Antofagasta TV",
         visibilidad: "",
